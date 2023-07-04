@@ -1,0 +1,5 @@
+.skills__article img {
+  object-fit: contain;
+  --size_logo: calc(30px + 10vw);
+  width: var(--size_logo);
+}

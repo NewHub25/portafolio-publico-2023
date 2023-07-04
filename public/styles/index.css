@@ -1,9 +1,11 @@
 @import "./reset.css";
+@import "./btn-shimmer.css";
 @import "./background.css";
 @import "./headerBar.css";
 @import "./home.css";
 @import "./projects.css";
-@import "./btn-shimmer.css";
+@import "./skills.css";
+@import "./about-me.css";
 
 :root {
   --primary: skyblue;

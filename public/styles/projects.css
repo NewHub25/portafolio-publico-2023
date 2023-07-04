@@ -6,14 +6,14 @@
   justify-content: center;
   align-items: center;
 }
-.projects .projects__header {
+.projects__header {
   font-size: 2rem;
   text-align: right;
   font-weight: 700;
   width: 90%;
   text-transform: capitalize;
 }
-.projects .projects__article {
+.projects__article {
   width: 90%;
   height: 70%;
   display: flex;
@@ -22,39 +22,38 @@
   align-content: space-evenly;
   gap: 1rem;
 }
-.projects .projects__article .projects__nav {
-  --size: calc( 100px + 10vw);
+.projects__nav {
+  --size: calc(100px + 10vw);
   height: var(--size);
   flex: 0 1 var(--size);
 }
-.projects .projects__article .projects__nav .projects__a {
+.projects__a {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
   height: 100%;
 }
-.projects .projects__article .projects__nav .projects__a .projects__img {
+.projects__img {
   width: 100%;
 }
-.projects .projects__article .projects__nav .projects__a .projects__p {
+.projects__p {
   color: var(--black);
   text-align: center;
   text-transform: lowercase;
 }
-.projects .projects__article .projects__nav .projects__a .projects__p::first-letter {
+
+.projects__p::first-letter {
   text-transform: uppercase;
 }
-.projects .projects__footer {
+.projects__footer {
   width: 90%;
   margin-top: 0.5rem;
   text-align: right;
 }
-.projects .projects__footer .projects__button {
+.projects__button {
   background-color: var(--bg-200);
   text-transform: capitalize;
   font-size: 1.2rem;
   padding: 0.5rem;
 }
-
-/*# sourceMappingURL=projects.css.map */

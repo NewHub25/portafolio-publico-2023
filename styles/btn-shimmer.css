@@ -1,0 +1,24 @@
+.shimmer-btn {
+  background-image: linear-gradient(
+    -60deg,
+    transparent,
+    transparent 40%,
+    hsl(0, 0%, 100%, 0.7),
+    transparent 80%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position-x: 150%;
+  animation: btn-shimmer 1s linear infinite;
+}
+.shimmer-btn:hover {
+  background-position-x: -150%;
+  transition: background-position-x 900ms;
+  cursor: pointer;
+}
+@keyframes btn-shimmer {
+  to {
+    background-position-x: -150%;
+  }
+}

@@ -1,0 +1,50 @@
+.projects
+    height: 100vh
+    height: 100dvh
+    display: flex
+    flex-flow: column nowrap
+    justify-content: center
+    align-items: center
+    // display: none
+    .projects__header
+        font-size: 2rem
+        text-align: right
+        font-weight: 700
+        width: 90%
+        text-transform: capitalize
+    .projects__article
+        width: 90%
+        height: 70%
+        // margin: 0 auto
+        display: flex
+        flex-flow: row wrap
+        justify-content: center
+        align-content: space-evenly
+        gap: 1rem
+        .projects__nav
+            --size: calc( 100px + 10vw)
+            height: var(--size)
+            flex: 0 1 var(--size)
+            .projects__a
+                display: flex
+                align-items: center
+                justify-content: center
+                flex-flow: column nowrap
+                height: 100%
+                .projects__img
+                    width: 100%
+                .projects__p
+                    color: var(--black)
+                    text-align: center
+                    text-transform: lowercase
+                    &::first-letter
+                        text-transform: uppercase
+    .projects__footer
+        width: 90%
+        margin-top: 0.5rem
+        text-align: right
+        .projects__button
+            background-color: var(--bg-200)
+            text-transform: capitalize
+            font-size: 1.2rem
+            padding: .5rem

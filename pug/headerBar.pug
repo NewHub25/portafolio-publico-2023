@@ -1,9 +1,0 @@
--const titulos = ["inicio", "proyectos", "tecnologías", "conóceme", "Contacto"]
--const iconos = ["fa-solid fa-house", "fa-solid fa-trophy", "fa-solid fa-flask", "fa-solid fa-address-card", "fa-solid fa-comment"]
-header.header-top.left_scene
-    span.header-top__span.fa-solid.fa-caret-right(data-icon="arrow-left")
-    ul.header-top__ul.ul-navegacion
-        each title, index in titulos
-            li(class=`header-top__li_item-${index} ul-navegacion__li`)
-                a(href="#") #{title} 
-                span(class=iconos[index])

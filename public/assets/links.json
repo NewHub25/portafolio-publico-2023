@@ -1,76 +1,76 @@
 [
   {
-    "src": "./../assets/imgs/encriptador.jpg",
+    "src": "./public/assets/imgs/encriptador.jpg",
     "alt": "Escribe el código secreto y descubre el significado",
     "title": "Escribe el código secreto y descubre el significado",
     "detalle": "Encriptador de texto",
     "url": "https://newhub25.github.io/Encriptador/"
   },
   {
-    "src": "./../assets/imgs/juego_cartas.jpg",
+    "src": "./public/assets/imgs/juego_cartas.jpg",
     "alt": "Increíble juego de cartas",
     "title": "Increíble juego de cartas",
     "detalle": "Juego de cartas",
     "url": "https://newhub25.github.io/CARD_GAME/"
   },
   {
-    "src": "./../assets/imgs/pokedex.jpg",
+    "src": "./public/assets/imgs/pokedex.jpg",
     "alt": "Aplicación para buscar pokemones",
     "title": "Aplicación para buscar pokemones",
     "detalle": "Pokedex",
     "url": "https://programandoconterry.web.app/pokedex/index.html"
   },
   {
-    "src": "./../assets/imgs/portada_2022.jpg",
+    "src": "./public/assets/imgs/portada_2022.jpg",
     "alt": "Portada con servidor Firebase",
     "title": "Portada con servidor Firebase",
     "detalle": "Portada 2022",
     "url": "https://programandoconterry.web.app/"
   },
   {
-    "src": "./../assets/imgs/skeleton.jpg",
+    "src": "./public/assets/imgs/skeleton.jpg",
     "alt": "Uso del efecto skeleton",
     "title": "Uso del efecto skeleton",
     "detalle": "Blog y skeleton css",
     "url": "https://newhub25.github.io/skeleton/"
   },
   {
-    "src": "./../assets/imgs/juego_vida.jpg",
+    "src": "./public/assets/imgs/juego_vida.jpg",
     "alt": "Juego de la vida del matemático Conway",
     "title": "Juego de la vida del matemático Conway",
     "detalle": "Juego de la vida",
     "url": "https://newhub25.github.io/lifeGame/"
   },
   {
-    "src": "./../assets/imgs/app_de_clima.jpg",
+    "src": "./public/assets/imgs/app_de_clima.jpg",
     "alt": "Aplicacion perfecta para ver el clima",
     "title": "Aplicacion perfecta para ver el clima",
     "detalle": "app de clima",
     "url": "https://verclima.surge.sh/"
   },
   {
-    "src": "./../assets/imgs/mutabilidadJS.jpg",
+    "src": "./public/assets/imgs/mutabilidadJS.jpg",
     "alt": "Propiedades y métodos javascript con chart.js",
     "title": "Propiedades y métodos javascript con chart.js",
     "detalle": "métodos Javascript",
     "url": "https://programandoconterry.web.app/mutabilidad/mutabilidad.html"
   },
   {
-    "src": "./../assets/imgs/ball-game.jpg",
+    "src": "./public/assets/imgs/ball_game.jpg",
     "alt": "Juego de pelota",
     "title": "Juego de pelota",
     "detalle": "Derriba ladrillos",
     "url": "https://programandoconterry.web.app/juego-pelota/pelota.html"
   },
   {
-    "src": "./../assets/imgs/beautifull_scroll.jpg",
+    "src": "./public/assets/imgs/beautifull_scroll.jpg",
     "alt": "Hermoso efecto de aparición",
     "title": "Hermoso efecto de aparición",
     "detalle": "Carga de fotitos",
     "url": "https://programandoconterry.web.app/beautifulScroll/beautifulScroll.html"
   },
   {
-    "src": "./../assets/imgs/gradient-hover.jpg",
+    "src": "./public/assets/imgs/gradient_hover.jpg",
     "alt": "Efecto de texto gradiente en el mes de la patria",
     "title": "Efecto de texto gradiente en el mes de la patria",
     "detalle": "Anima con el mouse",

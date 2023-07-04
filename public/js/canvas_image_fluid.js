@@ -6,7 +6,7 @@ export function loadCanvasFluid() {
   const canvas = document.getElementById("canvas_one");
   // const IMAGE_BASE64 = new Image();
   // Esta linea de aca arriba no rinde bien junto con esta function, demora en renderizar desde el JSON
-  const IMAGE_BASE64 = document.querySelector('.gatito');
+  const IMAGE_BASE64 = document.querySelector('.gatito img');
   // IMAGE_BASE64.src = cat.base64_300px;
   const context = canvas.getContext("2d");
   canvas.width = 400;

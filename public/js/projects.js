@@ -1,14 +1,15 @@
-import projectsArray from "../assets/links.json";
 let t = "";
 let range = 6;
 let count = 0;
-const imgHelp = "./../assets/vite.svg";
 
-export function refreshLinksToPage(_direction) {
+export async function refreshLinksToPage(_direction) {
+  const data = await fetch("./public/assets/links.json");
+  const projectsArray = await data.json();
+
   //Se vacía el contenedor y este acumulador: "t"
   document.querySelector(".projects__article").innerHTML = "";
   t = "";
-
+  //Calculo para mover las paginas
   count = count + _direction;
   if (Math.ceil(projectsArray.length / range) - 1 < count) {
     count--;
@@ -22,7 +23,7 @@ export function refreshLinksToPage(_direction) {
       ? `
   <nav class="projects__nav">
     <a class="projects__a" href="${pro.url}" title)="${pro.title}">
-      <img class="projects__img" src="${pro.src || imgHelp}" alt="${pro.alt}" />
+      <img class="projects__img" src="${pro.src}" alt="${pro.alt}" />
       <p class="projects__p">${pro.detalle}</p>
     </a>
   </nav>`

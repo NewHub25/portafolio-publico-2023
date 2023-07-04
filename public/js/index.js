@@ -1,7 +1,6 @@
-import "./../styles/index.sass";
-import { loadCanvasFluid } from "./canvas_image_fluid";
-import { toggleClassParentAndMe } from "./headerBar";
-import { refreshLinksToPage } from "./projects";
+import { loadCanvasFluid } from "./canvas_image_fluid.js";
+import { toggleClassParentAndMe } from "./headerBar.js";
+import { refreshLinksToPage } from "./projects.js";
 
 window.addEventListener("load", () => {
   loadCanvasFluid();

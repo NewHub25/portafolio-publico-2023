@@ -1,0 +1,29 @@
+@import "./reset.css";
+@import "./background.css";
+@import "./headerBar.css";
+@import "./home.css";
+@import "./projects.css";
+@import "./btn-shimmer.css";
+
+:root {
+  --primary: skyblue;
+  --secondary: #0090de;
+  --accent-100: #db3dff;
+  --accent-200: #faf;
+  --black: #222;
+  --black-opacity: #333a;
+  --white: #eee;
+  --bg-100: crimson;
+  --bg-200: gold;
+  --bg-300: #009032;
+}
+body {
+  background: var(--primary-100);
+  font-family: "Karla", sans-serif;
+}
+body main {
+  position: relative;
+}
+body main h1 {
+  display: none;
+}

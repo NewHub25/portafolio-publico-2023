@@ -22,10 +22,21 @@
 body {
   background: var(--primary-100);
   font-family: "Karla", sans-serif;
+  font-weight: 200;
 }
 body main {
   position: relative;
 }
 body main h1 {
   display: none;
+}
+a {
+  font-weight: 200;
+  color: var(--black);
+  text-decoration: none;
+}
+button {
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem;
 }

@@ -1,7 +1,7 @@
 import { loadCanvasFluid } from "./canvas_image_fluid.js";
 import { toggleClassParentAndMe } from "./headerBar.js";
 import { refreshLinksToPage } from "./projects.js";
-import a from "./about-me.js";
+import { target3d } from "./about-me.js";
 
 window.addEventListener("load", () => {
   loadCanvasFluid();
@@ -16,4 +16,5 @@ window.addEventListener("load", () => {
     .addEventListener("click", () => refreshLinksToPage(+1));
   refreshLinksToPage(0);
   document.body.firstElementChild.style.display = "none"; //Desaparece la carga
+  document.querySelector(".cube").addEventListener("click", target3d);
 });

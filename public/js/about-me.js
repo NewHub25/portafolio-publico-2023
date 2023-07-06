@@ -8,5 +8,5 @@ export function target3d(event) {
   setTimeout(() => {
     cube.classList.remove("cube_stop");
     side.classList.remove("target_cube_stop");
-  }, 5000);
+  }, 7000);
 }

@@ -19,28 +19,28 @@
 }
 .cube .side {
   position: absolute;
-  padding: 1rem;
   box-sizing: border-box;
+  padding: 1rem;
   height: 100%;
   width: 100%;
   opacity: 0.7;
   border: none;
   color: var(--black);
-  text-align: center;
+  text-align: justify;
   transition: all 0.5s ease-in-out;
 }
 .cube div:hover {
-  background: var(--bg-100);
+  background: var(--white);
 }
 .cube {
-  animation: rotate 10s infinite linear;
+  animation: rotate 15s infinite linear;
 }
 @keyframes rotate {
   from {
     transform: rotateX(0deg) rotateY(0deg);
   }
   to {
-    transform: rotateX(360deg) rotateY(360deg);
+    transform: rotateX(720deg) rotateY(360deg);
   }
 }
 .front {
@@ -73,29 +73,29 @@
 }
 /* Estos estilos paran la rotacion */
 .cube_stop {
-  transform-style: initial;
-  transform: translate(0, 0, 0) rotate(0, 0, 0);
+  transform: none;
   animation: none;
-  position: relative;
 }
 .cube_stop .side {
   display: none;
+  transform: none;
 }
 .cube_stop .target_cube_stop {
   display: block;
-  z-index: 1000;
+  z-index: 900;
   opacity: 1;
-  scale: 1.2;
-  transform: none;
+  transform-origin: center center;
+  transform: translateZ(200px);
+  background: var(--white);
 }
 .target_cube_stop::after {
   content: "";
   position: absolute;
   display: block;
   width: 0%;
-  height: 2px;
-  background-color: var(--bg-300);
-  animation: width-load 5s linear;
+  height: 0.3rem;
+  background-color: var(--black);
+  animation: width-load 7s linear;
   animation-iteration-count: 1;
   left: 0;
   bottom: 0;

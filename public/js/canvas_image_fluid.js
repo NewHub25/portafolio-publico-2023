@@ -120,7 +120,6 @@ export function loadCanvasFluid() {
       this.particlesArray.forEach((particle) => particle.update());
     }
     warp() {
-      console.log(this);
       this.particlesArray.forEach((particle) => particle.warp());
     }
   }
@@ -134,5 +133,5 @@ export function loadCanvasFluid() {
   }
   animate();
   canvas.addEventListener("click", () => effect.warp());
-  setTimeout(() => effect.warp(), 2000); //Dispersar las partículas en 2s
+  setInterval(() => effect.warp(), 2000); //Dispersar las partículas en 2s
 }

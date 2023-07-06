@@ -133,5 +133,5 @@ export function loadCanvasFluid() {
   }
   animate();
   canvas.addEventListener("click", () => effect.warp());
-  setInterval(() => effect.warp(), 2000); //Dispersar las partículas en 2s
+  setInterval(() => effect.warp(), 10000); //Dispersar las partículas en 2s
 }

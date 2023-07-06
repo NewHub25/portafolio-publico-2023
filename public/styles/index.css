@@ -6,6 +6,7 @@
 @import "./projects.css";
 @import "./skills.css";
 @import "./about-me.css";
+@import "./footer.css";
 
 :root {
   --primary: skyblue;

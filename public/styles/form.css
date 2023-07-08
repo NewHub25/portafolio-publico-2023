@@ -72,7 +72,7 @@
   width: 100%;
   font-size: 1.1em;
   border-radius: 10px;
-  background: hsl(49, 86%, 83%);
+  background: var(--white);
   outline: none;
 }
 [value="Enviar"] {

@@ -5,7 +5,7 @@
     var(--dark-blue) 60%
   );
   justify-content: flex-end;
-  color: var(--bg-200);
+  color: var(--white);
   gap: 1rem;
   font-size: 1.2rem;
 }
@@ -33,4 +33,21 @@
   --size-social: calc(2rem + 3vw);
   height: var(--size-social);
   filter: invert(80%) sepia(80%) hue-rotate(90deg) contrast(80%) saturate(200%);
+}
+@media (width >= 768px) {
+  .contacto {
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .contacto__article {
+    height: 50%;
+    justify-content: flex-start;
+  }
+  .contacto__h2 {
+    text-align: left;
+  }
+  .contacto__p {
+    text-align: center;
+  }
 }

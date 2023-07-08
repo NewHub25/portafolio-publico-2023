@@ -10,14 +10,14 @@ export function sendEmail() {
     btnSend.value = "Enviando...";
 
     const btnStyles = {
-      width: "50%",
-      fontSize: "1.5em",
-      color: "#eee",
-      fontWeight: "bold",
+      width: "min(50%, 200px)",
+      fontSize: "1.2em",
+      color: "var(--white)",
+      fontWeight: 700,
       borderRadius: "7px",
       border: "none",
-      background: "hsl(201, 100%, 40%)",
-      transition: "transform .5s",
+      backgroundColor: "var(--bg-100)",
+      transition: "transform 0.5s",
       letterSpacing: ".2em",
     };
     for (const prop in btnStyles) {

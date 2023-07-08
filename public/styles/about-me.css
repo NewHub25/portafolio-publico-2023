@@ -123,3 +123,23 @@
     width: 100%;
   }
 }
+@media (width >= 768px) {
+  .cube {
+    height: 300px;
+    width: 300px;
+  }
+  .front {
+    transform: translateZ(200px);
+  }
+  .cube_stop{
+    width: 400px;
+    height: 450px;
+  
+  }
+  .cube_stop .target_cube_stop{
+    font-size: 1.5rem;
+  }
+  .target_cube_stop img{
+    width: 200px;
+  }
+}

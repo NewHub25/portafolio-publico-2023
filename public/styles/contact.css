@@ -35,7 +35,7 @@
   --size-social: calc(2rem + 3vw);
   height: var(--size-social);
 }
-nav img {
+.contacto nav img {
   width: 10px;
 }
 input,

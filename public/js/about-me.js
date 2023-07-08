@@ -1,12 +1,14 @@
 export function target3d(event) {
   const cube = event.currentTarget;
-  cube.classList.add("cube_stop");
-  let side = event.target;
-  if (side.classList.contains("side")) {
-    side.classList.add("target_cube_stop");
+  let targetToSide = event.target;
+  if (targetToSide === cube) return;
+  if (!targetToSide.classList.contains("side")) {
+    targetToSide = targetToSide.closest(".side");
   }
+  cube.classList.add("cube_stop");
+  targetToSide.classList.add("target_cube_stop");
   setTimeout(() => {
     cube.classList.remove("cube_stop");
-    side.classList.remove("target_cube_stop");
-  }, 7000);
+    targetToSide.classList.remove("target_cube_stop");
+  }, 10_000);
 }

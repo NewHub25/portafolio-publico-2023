@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #eee;
+  background-color: var(--black);
   width: 100vw;
   width: 100dvw;
   height: 100vh;
@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 .screen-background .uno, .screen-background .dos, .screen-background .tres {
-  width: 300px;
+  width: 200px;
   aspect-ratio: 1/1;
   position: absolute;
 }
@@ -35,5 +35,3 @@
   height: 100%;
   backdrop-filter: blur(100px);
 }
-
-/*# sourceMappingURL=background.css.map */

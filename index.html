@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/styles/index.css">
     <script type="module" defer src="./public/js/index.js" type="module"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   </head>
   <body>
     <!-- Imagen para el efecto de particulas -->
@@ -29,21 +30,19 @@
       <img src="./public/assets/caret-right-solid.svg" class="header-top__img" data-icon="arrow-left" />
       <ul class="header-top__ul ul-navegacion">
         <li class="header-top__li_item-0 ul-navegacion__li">
-          <a href="#inicio_link">inicio</a><img src="./public/assets/house-solid.svg" />
+          <a href="#inicio_link">inicio<img src="./public/assets/house-solid.svg" /></a>
         </li>
         <li class="header-top__li_item-0 ul-navegacion__li">
-          <a href="#proyectos_link">proyectos</a
-          ><img src="./public/assets/trophy-solid.svg" />
+          <a href="#proyectos_link">proyectos<img src="./public/assets/trophy-solid.svg" /></a>
         </li>
         <li class="header-top__li_item-0 ul-navegacion__li">
-          <a href="#tecnologias_link">tecnologías</a
-          ><img src="./public/assets/flask-solid.svg" />
+          <a href="#tecnologias_link">tecnologías<img src="./public/assets/flask-solid.svg" /></a>
         </li>
         <li class="header-top__li_item-0 ul-navegacion__li">
-          <a href="#acercademi_link">conóceme</a><img src="./public/assets/address-card-solid.svg" />
+          <a href="#acercademi_link">conóceme<img src="./public/assets/address-card-solid.svg" /></a>
         </li>
         <li class="header-top__li_item-0 ul-navegacion__li">
-          <a href="#contacto_link">Contacto</a><img src="./public/assets/comment-solid.svg" />
+          <a href="#contacto_link">Contacto<img src="./public/assets/comment-solid.svg" /></a>
         </li>
       </ul>
     </header>    
@@ -138,24 +137,65 @@
           </div>
         </div>
       </section>
-      <footer class="contacto projects" id="contacto_link">
+      <section class="contacto projects" id="contacto_link">
         <article class="contacto__article projects">
-          <h2 class="contacto__h2">Envíame un mensaje</h2>
+          <h2 class="contacto__h2 projects__header">Contáctame</h2>
           <p class="contacto__p">La confianza en ti comienza cuando tienes una visión y sigues ese sueño acorde a este gran juego llamado vida en esta hermosa tierra.
             Para más detalles y asesoría éstas son mis redes:</p>
-          <footer class="contacto__footer">
-            <ul class="contacto__ul projects__article">
-              <li class="contacto__li"><img src="./public/assets/ico/pug.svg" alt=""></li>
-              <li class="contacto__li"><img src="./public/assets/ico/pug.svg" alt=""></li>
-              <li class="contacto__li"><img src="./public/assets/ico/pug.svg" alt=""></li>
-              <li class="contacto__li"><img src="./public/assets/ico/pug.svg" alt=""></li>
-              <li class="contacto__li"><img src="./public/assets/ico/pug.svg" alt=""></li>
-              <li class="contacto__li"><img src="./public/assets/ico/pug.svg" alt=""></li>
-            </ul>
-            <p class="contacto__p">mathterry25@gmail.com</p>
-          </footer>
+          <ul class="contacto__ul projects__article">
+            <li class="contacto__li"><img src="./public/assets/social_media/figma.svg" alt=""></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/github.svg" alt=""></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/linkedin.svg" alt=""></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/square-facebook.svg" alt=""></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/square-twitter.svg" alt=""></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/square-whatsapp.svg" alt=""></li>
+          </ul>
         </article>
-      </fo>
+        <form class="form projects contacto__form" name="formato" method="POST" action="#">
+          <h2 class="form__h2 contacto__p">
+            Agradezco sus comentarios a este correo <code>mathterry25@gmail.com</code>:
+          </h2>
+          <input type="text" name="to_name" id="to_name" value="Terry" hidden />
+          <nav class="form__nav">
+            <input type="text"
+              required
+              name="from_name"
+              id="from_name"
+              pattern="[a-zA-Z ]+"
+              placeholder=" "
+              class="form__input"
+            />
+            <span class="form__span">Tu nombre</span>
+            <img src="./public/assets/social_media/github.svg" alt="">
+            <img src="./public/assets/social_media/square-facebook.svg" alt="">
+          </nav>
+          <nav class="form__nav">
+            <input
+            type="email"
+            required
+            name="email_id"
+            id="email_id"
+            placeholder=" "
+            class="form__input"
+            />
+            <span class="input-title_span">Tu correo</span>
+            <img src="./public/assets/social_media/github.svg" alt="">
+            <img src="./public/assets/social_media/figma.svg" alt="">
+          </nav>
+          <nav class="inputText_nav">
+            <textarea
+              cols="10"
+              rows="5"
+              required
+              name="message"
+              id="message"
+              placeholder="Escribe aquí por favor"
+              class="form__textarea"
+            ></textarea>
+          </nav>
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
     </main>
   </body>
   </html>

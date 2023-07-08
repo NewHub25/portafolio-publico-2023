@@ -6,7 +6,7 @@
 @import "./projects.css";
 @import "./skills.css";
 @import "./about-me.css";
-@import "./footer.css";
+@import "./contact.css";
 
 :root {
   --primary: skyblue;
@@ -19,9 +19,10 @@
   --bg-100: crimson;
   --bg-200: gold;
   --bg-300: #009032;
+  --dark-blue: #084cb8;
 }
 body {
-  background: var(--primary-100);
+  background: var(--black);
   font-family: "Karla", sans-serif;
   font-weight: 200;
 }

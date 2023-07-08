@@ -11,7 +11,6 @@
   perspective-origin: 50% 50%;
 }
 .cube {
-  /* margin: auto; */
   position: relative;
   height: 200px;
   width: 200px;
@@ -114,7 +113,7 @@
   width: 0%;
   height: 0.3rem;
   background-color: var(--black);
-  animation: width-load 7s linear;
+  animation: width-load 10s linear;
   animation-iteration-count: 1;
   left: 0;
   bottom: 0;

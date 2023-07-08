@@ -2,8 +2,10 @@ import { loadCanvasFluid } from "./canvas_image_fluid.js";
 import { toggleClassParentAndMe } from "./headerBar.js";
 import { refreshLinksToPage } from "./projects.js";
 import { target3d } from "./about-me.js";
+import { sendEmail } from "./contact.js";
 
 window.addEventListener("load", () => {
+  sendEmail();
   loadCanvasFluid();
   document
     .querySelector(".header-top")

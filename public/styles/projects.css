@@ -7,11 +7,12 @@
   align-items: center;
 }
 .projects__header {
-  font-size: 2rem;
+  font-size: calc(1.5rem + 2vw);
   text-align: right;
   font-weight: 700;
   width: 90%;
   text-transform: capitalize;
+  color: var(--white);
 }
 .projects__article {
   width: 90%;

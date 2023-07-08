@@ -3,3 +3,6 @@
   --size_logo: calc(30px + 10vw);
   width: var(--size_logo);
 }
+.skills__article {
+  display: none;
+}

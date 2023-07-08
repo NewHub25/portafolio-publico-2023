@@ -143,12 +143,12 @@
           <p class="contacto__p">La confianza en ti comienza cuando tienes una visión y sigues ese sueño acorde a este gran juego llamado vida en esta hermosa tierra.
             Para más detalles y asesoría éstas son mis redes:</p>
           <ul class="contacto__ul projects__article">
-            <li class="contacto__li"><img src="./public/assets/social_media/figma.svg" alt=""></li>
-            <li class="contacto__li"><img src="./public/assets/social_media/github.svg" alt=""></li>
-            <li class="contacto__li"><img src="./public/assets/social_media/linkedin.svg" alt=""></li>
-            <li class="contacto__li"><img src="./public/assets/social_media/square-facebook.svg" alt=""></li>
-            <li class="contacto__li"><img src="./public/assets/social_media/square-twitter.svg" alt=""></li>
-            <li class="contacto__li"><img src="./public/assets/social_media/square-whatsapp.svg" alt=""></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/figma.svg" alt="figma"></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/github.svg" alt="github"></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/linkedin.svg" alt="linkedin"></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/square-facebook.svg" alt="facebook"></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/square-twitter.svg" alt="twitter"></li>
+            <li class="contacto__li"><img src="./public/assets/social_media/square-whatsapp.svg" alt="whatsapp"></li>
           </ul>
         </article>
         <form class="form projects contacto__form" name="formato" method="POST" action="#">
@@ -160,29 +160,30 @@
             <input type="text"
               required
               name="from_name"
-              id="from_name"
-              pattern="[a-zA-Z ]+"
-              placeholder=" "
               class="form__input"
+              id="from_name"
+              placeholder=" "
+              pattern="[a-zA-Z ]+"
             />
             <span class="form__span">Tu nombre</span>
-            <img src="./public/assets/social_media/github.svg" alt="">
-            <img src="./public/assets/social_media/square-facebook.svg" alt="">
+            <img class="form__img form__img_valid" src="./public/assets/check-solid.svg" alt="">
+            <img class="form__img form__img_invalid" src="./public/assets/xmark-solid.svg" alt="">
           </nav>
           <nav class="form__nav">
             <input
-            type="email"
             required
             name="email_id"
-            id="email_id"
-            placeholder=" "
             class="form__input"
+            id="email_id"
+            type="email"
+            placeholder=" "
+            pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
             />
-            <span class="input-title_span">Tu correo</span>
-            <img src="./public/assets/social_media/github.svg" alt="">
-            <img src="./public/assets/social_media/figma.svg" alt="">
+            <span class="form__span">Tu correo</span>
+            <img class="form__img form__img_valid" src="./public/assets/check-solid.svg" alt="">
+            <img class="form__img form__img_invalid" src="./public/assets/xmark-solid.svg" alt="">
           </nav>
-          <nav class="inputText_nav">
+          <nav class="form__nav">
             <textarea
               cols="10"
               rows="5"

@@ -39,9 +39,10 @@
   width: 100%;
 }
 .projects__p {
-  color: var(--black);
+  color: var(--white);
   text-align: center;
   text-transform: lowercase;
+  font-size: 1.2rem;
 }
 
 .projects__p::first-letter {

@@ -1,8 +1,22 @@
-.skills__article img {
-  object-fit: contain;
-  --size_logo: calc(30px + 10vw);
-  width: var(--size_logo);
-}
 .skills__article {
-  display: none;
+  padding-top: 2rem;
+}
+.skills__div {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  width: min(calc(1.5rem + 10vw), 100px);
+  aspect-ratio: 4/5;
+}
+.skills__div img {
+  object-fit: contain;
+  height: 70%;
+  flex: 0 1 auto;
+}
+.skills__article span {
+  color: var(--white);
+  font-weight: 700;
+  font-size: min(calc(0.5rem + 2vw), 1.5rem);
+  text-align: center;
+  /* line-break: anywhere; */
 }

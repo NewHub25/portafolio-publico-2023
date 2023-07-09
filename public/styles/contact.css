@@ -12,6 +12,7 @@
 .contacto__article {
   height: 50vh;
   gap: 1rem;
+  flex: 1 0 auto;
 }
 .contacto__h2 {
   text-transform: lowercase;
@@ -26,7 +27,7 @@
 .contacto__ul {
   gap: 0.5rem;
   height: min-content;
-  width: min(90%, 500px);
+  width: min(90%, 600px);
   justify-content: space-between;
 }
 .contacto__ul img {
@@ -42,7 +43,8 @@
   }
   .contacto__article {
     height: 50%;
-    justify-content: flex-start;
+    width: 50%;
+    justify-content: space-evenly;
   }
   .contacto__h2 {
     text-align: left;

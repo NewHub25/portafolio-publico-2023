@@ -7,7 +7,7 @@
     transparent 80%,
     transparent 100%
   );
-  background-size: 200% 100%;
+  background-size: 300% 100%;
   background-repeat: no-repeat;
   background-position-x: 150%;
   animation: btn-shimmer 1s linear infinite;

@@ -9,21 +9,22 @@
   padding: 1rem;
   text-wrap: balance;
 }
-.home-draw .home-draw__header {
+.home-draw__header {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2rem;
   text-align: center;
   color: var(--white);
 }
-.home-draw .home-draw__canvas {
+.home-draw__canvas {
   flex: 0 0 auto;
   width: 300px;
   height: 300px;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
-  .home-draw .home-draw__canvas {
+  .home-draw__canvas {
     width: 400px;
     height: 400px;
   }

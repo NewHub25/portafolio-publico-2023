@@ -71,7 +71,7 @@
 }
 .form__textarea {
   width: 100%;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   border-radius: 10px;
   background: var(--white);
   outline: none;
@@ -86,9 +86,10 @@
   background-color: var(--bg-100);
   transition: transform 0.5s;
   letter-spacing: 0.2em;
+  cursor: pointer;
 }
 [value="Enviar"]:active {
-  transform: translateY(5px);
+  transform: scale(0.8);
 }
 /* @media screen and (max-width: 576px) {
     .inputText_nav textarea {

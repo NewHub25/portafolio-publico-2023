@@ -28,6 +28,7 @@
   text-align: justify;
   transition: all 0.5s ease-in-out;
   font-size: 0.5rem;
+  cursor: pointer;
 }
 .side h2 {
   font-size: 1.5rem;
@@ -131,15 +132,14 @@
   .front {
     transform: translateZ(200px);
   }
-  .cube_stop{
+  .cube_stop {
     width: 400px;
     height: 450px;
-  
   }
-  .cube_stop .target_cube_stop{
+  .cube_stop .target_cube_stop {
     font-size: 1.5rem;
   }
-  .target_cube_stop img{
+  .target_cube_stop img {
     width: 200px;
   }
 }

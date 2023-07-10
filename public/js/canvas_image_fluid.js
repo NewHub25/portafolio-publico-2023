@@ -9,8 +9,8 @@ export function loadCanvasFluid() {
   const IMAGE_BASE64 = document.querySelector('.gatito img');
   // IMAGE_BASE64.src = cat.base64_300px;
   const context = canvas.getContext("2d");
-  canvas.width = 400;
-  canvas.height = 400;
+  canvas.width = 500;
+  canvas.height = 500;
   //Y estamos poniendo en los estilos SASS del canvas los mismos pixeles por el FLEX
 
   class Particle {

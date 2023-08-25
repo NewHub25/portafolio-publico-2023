@@ -8,6 +8,7 @@
   color: var(--white);
   gap: 1rem;
   font-size: 1.2rem;
+  padding: 1.5rem;
 }
 .contacto__article {
   height: 50vh;

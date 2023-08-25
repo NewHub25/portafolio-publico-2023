@@ -12,9 +12,10 @@
 .home-draw__header {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: calc(2rem + 3vw);
   text-align: center;
   color: var(--white);
+  font-family: 'Courier New', Courier, monospace;
 }
 .home-draw__canvas {
   flex: 0 0 auto;

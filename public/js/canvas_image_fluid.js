@@ -70,7 +70,7 @@ export function loadCanvasFluid() {
       this.centerY = this.height * 0.5;
       this.x = this.centerX - this.image.width * 0.5;
       this.y = this.centerY - this.image.height * 0.5;
-      this.gap = 3;
+      this.gap = 2;
       this.mouse = {
         radius: 10000,
         x: undefined,

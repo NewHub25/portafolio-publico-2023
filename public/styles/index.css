@@ -21,6 +21,7 @@
   --bg-200: gold;
   --bg-300: #009032;
   --dark-blue: #084cb8;
+  scroll-behavior: smooth;
 }
 body {
   background: var(--black);
